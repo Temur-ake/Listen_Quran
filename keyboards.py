@@ -280,7 +280,7 @@ kb6 = InlineKeyboardMarkup(inline_keyboard=[
     ],
     [
         InlineKeyboardButton(text="Back", callback_data="bk5"),
-        InlineKeyboardButton(text="Main Menu 🫡", callback_data="main_menu")
+        InlineKeyboardButton(text="Main Menu ✅", callback_data="main_menu")
     ]
 ])
 
