@@ -445,7 +445,7 @@ async def handle_callback_query(call: CallbackQuery, bot: Bot):
         await bot.edit_message_reply_markup(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                             reply_markup=kb5)
     elif data == "main_menu":
-        await bot.send_message(call.message.chat.id, 'Welcome to the Main Menu!', reply_markup=kb1)
+        await bot.send_message(call.message.chat.id, 'Welcome to the Main Menu 🫡', reply_markup=kb1)
 
 
 async def main() -> None:
