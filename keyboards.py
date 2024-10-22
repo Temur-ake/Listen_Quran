@@ -77,6 +77,7 @@ kb2 = InlineKeyboardMarkup(inline_keyboard=[
     ],
     [
         InlineKeyboardButton(text="Al-Fat’h", callback_data="fath"),
+        InlineKeyboardButton(text='Yaseen',callback_data='yas'),
         InlineKeyboardButton(text="Al-Hujurat", callback_data="huj")
     ],
     [

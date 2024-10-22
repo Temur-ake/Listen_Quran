@@ -210,6 +210,10 @@ async def handle_callback_query(call: CallbackQuery, bot: Bot):
     elif data == "fath":
         await bot.edit_message_reply_markup(chat_id=call.message.chat.id, message_id=call.message.message_id)
         await bot.send_audio(chat_id=call.message.chat.id, audio="https://t.me/QarimSiddiq/51", reply_markup=pages)
+    elif data == "yas":
+        await bot.edit_message_reply_markup(chat_id=call.message.chat.id, message_id=call.message.message_id)
+        await bot.send_audio(chat_id=call.message.chat.id, audio="https://t.me/qa_muhammad_al_minshawi/39",
+                             reply_markup=pages)
     elif data == "huj":
         await bot.edit_message_reply_markup(chat_id=call.message.chat.id, message_id=call.message.message_id)
         await bot.send_audio(chat_id=call.message.chat.id, audio="https://t.me/QarimSiddiq/52", reply_markup=pages)
