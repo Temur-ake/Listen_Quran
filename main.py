@@ -27,18 +27,18 @@ async def welcome_message(message: Message, bot: Bot):
     await bot.send_message(user_id, text, reply_markup=qr)
 
 
-@dp.message(F.message == 'Qori Muhammad Siddiq ▶️')
+@dp.message(F.text == 'Qori Muhammad Siddiq ▶️')
 async def m_s(message: Message, bot: Bot):
     user_id = message.from_user.id
-    text = "Free audios to listen and download 😊\n\nListen surah from Qori Muhammad Siddiq ✅:"
-    await bot.send_message(user_id, text, reply_markup=kb1)
-
-
-@dp.message(F.message == 'Yaseer Al Dosari ▶️')
-async def m_s(message: Message, bot: Bot):
-    user_id = message.from_user.id
-    text = "Free audios to listen and download 😊\n\nListen surah from Yaseer Al Dosari ✅:"
+    text = "Free audios to listen and download 😊\n\nListen Qur'an from Qori Muhammad Siddiq ✅:"
     await bot.send_message(user_id, text, reply_markup=kbq1)
+
+
+@dp.message(F.text == 'Yaseer Al Dosari ▶️')
+async def m_s(message: Message, bot: Bot):
+    user_id = message.from_user.id
+    text = "Free audios to listen and download 😊\n\nListen Qur'an from Yaseer Al Dosari ✅:"
+    await bot.send_message(user_id, text, reply_markup=kb1)
 
 
 @dp.message(F.content_type == [ContentType.PHOTO, ContentType.VIDEO, ContentType.TEXT,
