@@ -1,5 +1,9 @@
-from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, KeyboardButton, ReplyKeyboardMarkup
 
+qr = ReplyKeyboardMarkup(
+    keyboard=[
+        [KeyboardButton(text='Qori Muhammad Siddiq ▶️'), KeyboardButton(text='Yaseer Al Dosari ▶️')]
+    ])
 kb1 = InlineKeyboardMarkup(inline_keyboard=[
     [
         InlineKeyboardButton(text="Al-Fatihah", callback_data="fa"),
