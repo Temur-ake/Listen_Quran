@@ -3,7 +3,9 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, KeyboardBu
 qr = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text='Qori Muhammad Siddiq ▶️'), KeyboardButton(text='Yaseer Al Dosari ▶️')]
-    ])
+    ],
+    resize_keyboard=True
+)
 kb1 = InlineKeyboardMarkup(inline_keyboard=[
     [
         InlineKeyboardButton(text="Al-Fatihah", callback_data="fa"),
