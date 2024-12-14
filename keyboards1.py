@@ -93,7 +93,7 @@ kbq2 = InlineKeyboardMarkup(inline_keyboard=[
         InlineKeyboardButton(text="Ar-Rahman", callback_data="rahq")
     ],
     [
-        InlineKeyboardButton(text="Al-Waqi’ah", callback_data="waqq"),
+        InlineKeyboardButton(text="Al-Waqi’ah", callback_data="aaq"),
         InlineKeyboardButton(text="Al-Hadid", callback_data="hadq")
     ],
     [
