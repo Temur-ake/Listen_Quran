@@ -19,4 +19,3 @@ jobs:
             cd /var/www/temur_listen_quran
             git pull 
             systemctl restart temur_listen_quran.service
-            systemctl restart temur_listen_quran.service
